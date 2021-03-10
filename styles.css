@@ -10,7 +10,7 @@ body {
 @media only screen and (max-device-width: 400px) {
   body {
     background-image: url("img/background-mobile.jpg");
-    background-size: 100vw auto;
+    background-size: cover;
     background-position: top center;
   }
 }
