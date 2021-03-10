@@ -10,8 +10,14 @@ body {
 @media only screen and (max-device-width: 400px) {
   body {
     background-image: url("img/background-mobile.jpg");
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-position: top center;
   }
 }
 
