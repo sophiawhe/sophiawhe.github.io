@@ -7,6 +7,14 @@ body {
   font-family: 'Share Tech Mono', monospace;
 }
 
+@media only screen and (max-width: 900px) and (-webkit-device-pixel-ratio: 3) {
+  body {
+    background-image: url("img/background-mobile.jpg");
+    background-size: 100vw auto;
+    background-position: top center;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   body {
     background-image: url("img/background-mobile.jpg");
@@ -18,7 +26,7 @@ body {
 @media only screen and (min-width: 900px) {
   body {
     background-attachment: fixed;
-    background-size: 100vw auto;
+    background-size: cover;
     background-position: top center;
     background-image: url("img/background.jpg");
   }
