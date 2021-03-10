@@ -4,15 +4,20 @@
 */
 
 body {
-  background-image: url("img/background.jpg");
   background-attachment: fixed;
   background-size: cover;
   font-family: 'Share Tech Mono', monospace;
 }
 
-@media screen and (min-width: 100px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   body {
     background-image: url("img/background-mobile.jpg");
+  }
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-image: url("img/background.jpg");
   }
 }
 
