@@ -7,6 +7,9 @@ body {
   font-family: 'Share Tech Mono', monospace;
 }
 
+/*
+background-position: top center;
+*/
 @media only screen and (max-device-width: 400px) {
   body {
     background-image: url("img/background-mobile.jpg");
@@ -14,10 +17,10 @@ body {
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: 100vw auto;
+    -moz-background-size: 100vw auto;
+    -o-background-size: 100vw auto;
+    background-size: 100vw auto;
   }
 }
 
