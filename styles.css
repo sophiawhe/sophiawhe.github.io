@@ -30,12 +30,26 @@ body {
   }
 
   html {
-    font-size: 14px;
+    font-size: 12px;
   }
 
 }
 
-@media only screen and (min-width: 900px) and (min-device-width: 500px){
+@media only screen and (min-device-width: 500px) and (max-device-width: 1024px) {
+  body {
+    background-attachment: fixed;
+    background-size: 100vw auto;
+    background-position: top center;
+    background-image: url("img/background.jpg");
+
+  }
+
+  html {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 900px) and (min-device-width: 1024px){
   body {
     background-attachment: fixed;
     background-size: cover;
