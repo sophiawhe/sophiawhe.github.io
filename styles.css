@@ -7,7 +7,7 @@ body {
   font-family: 'Share Tech Mono', monospace;
 }
 
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-device-width: 500px) {
   body {
     background-attachment: fixed;
     background-size: 100vw auto;
@@ -25,7 +25,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 900px) and (min-device-width: 400px){
+@media only screen and (min-width: 900px) and (min-device-width: 500px){
   body {
     background-attachment: fixed;
     background-size: cover;
@@ -89,7 +89,7 @@ header, #intro section, #projects article, #projects article section {
  background-color: lavender;
 */
 footer, #intro, #facts, #coming-soon {
-  background-image: linear-gradient(white, rgb(187, 187, 248));
+  background-image: linear-gradient(linen, rgb(187, 187, 248));
 
 }
 
