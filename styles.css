@@ -101,23 +101,25 @@ p {
 }
 
 
-header, #projects > article, #projects > article > section {
+header, #projects > article, #projects > article > section,
+#links > article, #links section {
   align-items: center;
 }
 
 /*
 color: #E0DBD7;
 */
-header, #projects h2, #projects > p, #projects article section p span {
+header, #projects h2, #links h2, #links > p, #projects > p, #projects article section p span {
   color: lavender;
 }
 
-header, #projects > article > section {
+header, #projects > article > section, #links section {
   justify-content: center;
   flex-direction: column;
 }
 
-header, #intro section, #projects article, #projects article section {
+header, #intro section, #projects article, #projects article section,
+#links article, #links section {
   display: flex;
 }
 
@@ -127,19 +129,19 @@ header, #intro section, #projects article, #projects article section {
  background-color: lavender;
 */
 footer, #intro, #facts, #coming-soon {
-  background-image: linear-gradient(linen, rgb(187, 187, 248));
+  background-image: linear-gradient(linen, rgb(169, 169, 252));
 
 }
 
-footer p, h2, #projects > p, #coming-soon {
+footer p, h2, #projects > p, #links > p, #coming-soon {
   text-align: center;
 }
 
-footer p, #projects > article > section {
+footer p, #projects > article > section, #links section {
   padding: 20px;
 }
 
-#intro, #facts, #projects, #coming-soon  {
+#intro, #facts, #projects, #coming-soon, #links {
   width: 80%;
   margin: 0 auto;
   margin-bottom: 50px;
@@ -183,7 +185,8 @@ footer p, #projects > article > section {
   font-size: 1em;
 }
 
-#projects article section p, #projects article section p span.answer  {
+#projects article section p, #projects article section p span.answer
+#links article section p, #links article section p span.answer  {
   font-size: 1.1em;
 }
 
@@ -215,7 +218,7 @@ footer p, #projects > article > section {
   flex: 1;
 }
 
-#projects > article {
+#projects > article, #links > article {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
@@ -233,6 +236,39 @@ background-color: #9B570D;
   opacity: 80%;
 }
 
+#links section {
+  justify-content: start;
+  margin: 15px;
+  height: 18em;
+  width: 18em;
+  background-color:rgb(171, 127, 192);
+  background-image: linear-gradient(rgb(169, 169, 252), rgb(171, 127, 192), darkorchid);
+  box-shadow: 20px 15px 20px #551755;
+  opacity: 80%;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: linen;
+}
+
+#links section:hover {
+  background-color:darkorchid;
+  background-image: linear-gradient( rgb(171, 127, 192), darkorchid, purple);
+  box-shadow: 25px 20px 25px #551755;
+}
+
+/* need to fix */
+a:active {
+  background-color:purple;
+  background-image:linear-gradient(purple, rebeccapurple);
+}
+
+#links article section img {
+  height: 7em;
+  width: 7em;
+}
+
 #projects > article > section > img {
   height: 150px;
   width: 150px;
@@ -246,8 +282,16 @@ background-color: #9B570D;
   align-self: flex-start;
 }
 
+#links > article > section > p {
+  align-self: center;
+}
+
 #projects > article > section > p > span {
   font-size: 1.7em;
+}
+
+#links span {
+  font-size: 1.5em;
 }
 
 #projects > article > section > p > span.answer {
