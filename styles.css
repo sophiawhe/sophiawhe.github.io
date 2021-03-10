@@ -7,20 +7,13 @@ body {
   font-family: 'Share Tech Mono', monospace;
 }
 
-/*
-background-position: top center;
-*/
 @media only screen and (max-device-width: 400px) {
   body {
-    background-image: url("img/background-mobile.jpg");
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    -webkit-background-size: 100vw auto;
-    -moz-background-size: 100vw auto;
-    -o-background-size: 100vw auto;
+    background-attachment: fixed;
     background-size: 100vw auto;
+    background-position: top center;
+    background-image: url("img/background-mobile.jpg");
+
   }
 }
 
@@ -32,7 +25,7 @@ background-position: top center;
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 900px) and (min-device-width: 400px){
   body {
     background-attachment: fixed;
     background-size: cover;
@@ -78,7 +71,7 @@ header, #projects > article, #projects > article > section {
 color: #E0DBD7;
 */
 header, #projects h2, #projects > p, #projects article section p span {
-  color:antiquewhite;
+  color: lavender;
 }
 
 header, #projects > article > section {
@@ -94,7 +87,7 @@ header, #intro section, #projects article, #projects article section {
  #E0DBD7;
 */
 footer, #intro, #facts, #coming-soon {
-  background-color:rgb(235, 209, 177);
+  background-color: lavender;
 }
 
 footer p, h2, #projects > p, #coming-soon {
@@ -105,16 +98,19 @@ footer p, #projects > article > section {
   padding: 20px;
 }
 
-#intro, #facts, #projects {
+#intro, #facts, #projects, #coming-soon  {
   width: 80%;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 #intro, #facts, #coming-soon {
-  padding: 30px;
+  padding: 20px;
   border: 15px solid dodgerblue;
+}
 
+#intro, #facts, #coming-soon, footer {
+  box-shadow: 20px 15px 20px #551755;
 }
 
 #intro > section > p {
@@ -192,6 +188,7 @@ background-color: #9B570D;
   height: 400px;
   width: 250px;
   background-color:darkorchid;
+  box-shadow: 20px 15px 20px #551755;
   opacity: 80%;
 }
 
