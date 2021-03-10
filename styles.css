@@ -84,10 +84,13 @@ header, #intro section, #projects article, #projects article section {
 }
 
 /*
+ Prior solid colors:
  #E0DBD7;
+ background-color: lavender;
 */
 footer, #intro, #facts, #coming-soon {
-  background-color: lavender;
+  background-image: linear-gradient(white, rgb(187, 187, 248));
+
 }
 
 footer p, h2, #projects > p, #coming-soon {
