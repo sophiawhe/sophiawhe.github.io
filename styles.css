@@ -9,13 +9,13 @@ body {
   font-family: 'Share Tech Mono', monospace;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 700px) {
   body {
     background-image: url("img/background-mobile.jpg");
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 700px) {
   body {
     background-image: url("img/background.jpg");
   }
