@@ -129,7 +129,7 @@ header, #intro section, #projects article, #projects article section,
  background-color: lavender;
 */
 footer, #intro, #facts, #coming-soon {
-  background-image: linear-gradient(linen, rgb(169, 169, 252));
+  background-image: linear-gradient(linen, rgb(169, 169, 252), darkorchid);
 
 }
 
@@ -241,8 +241,9 @@ background-color: #9B570D;
   margin: 15px;
   height: 18em;
   width: 18em;
+  color:
   background-color:rgb(171, 127, 192);
-  background-image: linear-gradient(rgb(169, 169, 252), rgb(171, 127, 192), darkorchid);
+  background-image: linear-gradient(yellowgreen,rgb(169, 169, 252), rgb(171, 127, 192), mediumvioletred);
   box-shadow: 20px 15px 20px #551755;
   opacity: 80%;
 }
@@ -254,7 +255,7 @@ a:link, a:visited {
 
 #links section:hover {
   background-color:darkorchid;
-  background-image: linear-gradient( rgb(171, 127, 192), darkorchid, purple);
+  background-image: linear-gradient(linen, rgb(171, 127, 192), purple);
   box-shadow: 25px 20px 25px #551755;
 }
 
