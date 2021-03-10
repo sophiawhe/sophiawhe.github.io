@@ -1,0 +1,67 @@
+/*
+  SOPHIA HE
+  MARCH 9, 2021
+*/
+
+ul {
+  list-style: none;
+}
+
+.caption {
+  text-align: center;
+  line-height: 40px;
+}
+
+/*
+background-color: #E0DBD7;
+*/
+#creative {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 30px;
+  border-top: 15px solid #551755;
+  border-bottom: 15px solid #551755;
+  border-radius: 15%;
+  background-color:burlywood;
+}
+
+#tyson {
+  max-width: 60%;
+  border-radius: 5%;
+  box-shadow: 3px 3px 3px #292929;
+}
+
+#universe {
+  width: 100%;
+  display: none;
+}
+
+#creative li:before {
+  content: '\2B50';
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+#creative > article > img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#creative > article > p > span > em {
+  font-weight: bolder;
+  color: purple;
+}
+
+#creative > article > img, #creative > article > p > span:hover > img {
+  display: block;
+}
+
+#tyson:hover {
+  box-shadow: -3px 3px 3px #292929;
+  transform: scaleX(-1);
+}
+
+#tyson, #universe {
+  height: auto;
+}

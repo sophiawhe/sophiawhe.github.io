@@ -1,0 +1,190 @@
+/*
+  SOPHIA HE
+  MARCH 9, 2021
+*/
+
+body {
+  background-image: url("img/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+header {
+  height: 100vh;
+}
+
+footer {
+  background-size: 100%;
+}
+
+/*
+text-decoration: underline;
+*/
+h2 {
+  font-size: 35px;
+}
+
+header h1 {
+  font-family: 'Coda Caption', sans-serif;
+  text-transform: uppercase;
+  font-size: 70px;
+  margin-bottom: 0px;
+  text-shadow: 20px 15px 20px #551755;
+}
+
+header blockquote {
+  margin-top: 0px;
+  font-size: 22px;
+}
+
+header, #projects > article, #projects > article > section {
+  align-items: center;
+}
+
+/*
+color: #E0DBD7;
+*/
+header, #projects h2, #projects > p, #projects article section p span {
+  color:antiquewhite;
+}
+
+header, #projects > article > section {
+  justify-content: center;
+  flex-direction: column;
+}
+
+header, #intro section, #projects article, #projects article section {
+  display: flex;
+}
+
+/*
+ #E0DBD7;
+*/
+footer, #intro, #facts, #coming-soon {
+  background-color:rgb(235, 209, 177);
+}
+
+footer p, h2, #projects > p, #coming-soon {
+  text-align: center;
+}
+
+footer p, #projects > article > section {
+  padding: 20px;
+}
+
+#intro, #facts, #projects {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#intro, #facts, #coming-soon {
+  padding: 30px;
+  border: 15px solid dodgerblue;
+
+}
+
+#intro > section > p {
+  size: 20px;
+}
+
+#intro > section > img, #facts > section > img {
+  width: 20vw;
+  height: 100%;
+  border-radius: 10%;
+  margin: 10px;
+  margin-right: 50px;
+}
+
+#facts a {
+  color: #FFA500;
+
+}
+
+#facts a:visited {
+  color: #1B506E;
+}
+
+#facts p {
+  margin: 20px;
+}
+
+#facts p {
+  font-size: 24px;
+}
+
+#projects article section p, #projects article section p span.answer  {
+  font-size: 16px;
+}
+
+#facts li {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#facts section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+
+#facts section p {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.education {
+  font-size: 18px;
+  font-weight: bold;
+  max-width: 50%;
+  flex: 1;
+}
+
+#projects > article {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/*
+background-color: #9B570D;
+*/
+#projects > article > section {
+  justify-content: start;
+  margin: 15px;
+  height: 400px;
+  width: 250px;
+  background-color:darkorchid;
+  opacity: 80%;
+}
+
+#projects > article > section > img {
+  height: 150px;
+  width: 150px;
+}
+
+#projects > article > section > hr {
+  width: 65%;
+}
+
+#projects > article > section > p {
+  align-self: flex-start;
+}
+
+#projects > article > section > p > span {
+  font-size: 28px;
+}
+
+#projects > article > section > p > span.answer {
+  color: #191919;
+  display: none;
+}
+
+#projects > article > section:hover > p > span.answer {
+  display: inline;
+}
