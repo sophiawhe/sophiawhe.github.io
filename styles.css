@@ -130,7 +130,7 @@ footer p, #projects > article > section {
 
 #intro, #facts, #coming-soon {
   padding: 20px;
-  border: 15px solid dodgerblue;
+  /*border: 15px solid dodgerblue;*/
 }
 
 #intro, #facts, #coming-soon, footer {
