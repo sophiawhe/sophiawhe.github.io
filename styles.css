@@ -5,13 +5,14 @@
 
 body {
   font-family: 'Share Tech Mono', monospace;
+  background-position: top center;
+  color: black;
 }
 
 @media only screen and (max-device-width: 1100px) {
   body {
     background-attachment: fixed;
     background-size: 100vw auto;
-    background-position: top center;
     background-image: url("img/background-mobile.jpg");
 
   }
@@ -26,7 +27,6 @@ body {
   body {
     background-image: url("img/background-mobile.jpg");
     background-size: 100vw auto;
-    background-position: top center;
   }
 
   html {
@@ -56,7 +56,6 @@ Other option for iPad/tablet
   body {
     background-attachment: fixed;
     background-size: cover;
-    background-position: top center;
     background-image: url("img/background.jpg");
   }
 
@@ -66,6 +65,26 @@ Other option for iPad/tablet
 
 }
 
+/*
+ Prior solid colors:
+ #E0DBD7;
+ background-color: lavender;
+*/
+footer, #intro, #facts, #coming-soon {
+  background-image: linear-gradient(linen, rgb(169, 169, 252), darkorchid);
+
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  footer, #intro, #facts, #coming-soon {
+    background-image: linear-gradient(midnightblue, rebeccapurple);
+  }
+
+  body {
+    color: ghostwhite;
+  }
+
+}
 
 header h1 {
   font-family: 'Coda Caption', sans-serif;
@@ -121,16 +140,6 @@ header, #projects > article > section, #links section {
 header, #intro section, #projects article, #projects article section,
 #links article, #links section {
   display: flex;
-}
-
-/*
- Prior solid colors:
- #E0DBD7;
- background-color: lavender;
-*/
-footer, #intro, #facts, #coming-soon {
-  background-image: linear-gradient(linen, rgb(169, 169, 252), darkorchid);
-
 }
 
 footer p, h2, #projects > p, #links > p, #coming-soon {
@@ -241,8 +250,7 @@ background-color: #9B570D;
   margin: 15px;
   height: 18em;
   width: 18em;
-  color:
-  background-color:rgb(171, 127, 192);
+  background-color: rgb(171, 127, 192);
   background-image: linear-gradient(yellowgreen,rgb(169, 169, 252), rgb(171, 127, 192), mediumvioletred);
   box-shadow: 20px 15px 20px #551755;
   opacity: 80%;
@@ -250,7 +258,7 @@ background-color: #9B570D;
 
 a:link, a:visited {
   text-decoration: none;
-  color: linen;
+  color: white;
 }
 
 #links section:hover {
@@ -260,8 +268,7 @@ a:link, a:visited {
 }
 
 /* need to fix */
-a:active {
-  background-color:purple;
+#links section:active {
   background-image:linear-gradient(purple, rebeccapurple);
 }
 
