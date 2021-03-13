@@ -314,13 +314,13 @@ a:link, a:visited {
 }
 
 
-#scarlet-witch:hover + img, #scarlet-witch:active + img {
+#scarlet-witch:hover + img, #scarlet-witch:target + img  {
   display: block;
   /*background-color:rgb(75, 18, 104);*/
   /*background-image:linear-gradient(midnightblue, purple, rebeccapurple);*/
 }
 
-#scarlet-witch:hover, #scarlet-witch:active {
+#scarlet-witch:hover, #scarlet-witch:target {
   background-color:rebeccapurple;
 }
 
@@ -340,18 +340,32 @@ a:link, a:visited {
   height:auto;
 }
 
-#panorama:hover, #panorama:active {
+#panorama:hover {
   background-color:rebeccapurple;
 }
 
-#panorama:hover + div img, #panorama:active + div img {
+#panorama:hover + div img {
   display: block;
   /*background-color:rgb(75, 18, 104);*/
   /*background-image:linear-gradient(midnightblue, purple, rebeccapurple);*/
 }
 
-#panorama:hover + div, #panorama:active + div {
+#panorama:hover + div {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+@media only screen and (max-device-width: 1100px) {
+  #panorama:hover + div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+#projects div img {
+  max-width:80%;
+  height:auto;
+}
 }
