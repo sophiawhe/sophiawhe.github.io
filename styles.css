@@ -71,13 +71,13 @@ Other option for iPad/tablet
  #E0DBD7;
  background-color: lavender;
 */
-footer, #intro, #facts, #coming-soon {
+footer, #intro, #facts, #coming-soon, #technologies {
   background-image: linear-gradient(linen, rgb(169, 169, 252), darkorchid);
 
 }
 
 @media screen and (prefers-color-scheme: dark) {
-  footer, #intro, #facts, #coming-soon {
+  footer, #intro, #facts, #coming-soon, #technologies {
     background-image: linear-gradient(midnightblue, rebeccapurple);
   }
 
@@ -153,18 +153,18 @@ footer p, #projects > article > section, #links section {
   padding: 20px;
 }
 
-#intro, #facts, #projects, #coming-soon, #links {
+#intro, #facts, #projects, #coming-soon, #links, #technologies {
   width: 80%;
   margin: 0 auto;
   margin-bottom: 50px;
 }
 
-#intro, #facts, #coming-soon {
+#intro, #facts, #coming-soon, #technologies {
   padding: 20px;
   /*border: 15px solid dodgerblue;*/
 }
 
-#intro, #facts, #coming-soon, footer {
+#intro, #facts, #coming-soon, footer, #technologies {
   box-shadow: 20px 15px 20px #551755;
 }
 
@@ -172,7 +172,7 @@ footer p, #projects > article > section, #links section {
   size: 20px;
 }
 
-#intro > section > img, #facts > section > img {
+#intro > section > img, #facts > section > img, #technologies > section > img {
   width: 20vw;
   height: 100%;
   border-radius: 10%;
@@ -189,11 +189,11 @@ footer p, #projects > article > section, #links section {
   color: #1B506E;
 }
 
-#facts p {
+#facts p, #technologies p {
   margin: 20px;
 }
 
-#facts p {
+#facts p, #technologies p {
   font-size: 1em;
 }
 
@@ -202,12 +202,12 @@ footer p, #projects > article > section, #links section {
   font-size: 1.1em;
 }
 
-#facts li {
+#facts li, #technologies li {
   font-size: .8em;
   font-weight: normal;
 }
 
-#facts section {
+#facts section, #technologies section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -216,14 +216,14 @@ footer p, #projects > article > section, #links section {
 }
 
 
-#facts section p {
+#facts section p, #technologies section p {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
 
-.education {
+.education, .tech {
   font-size: 1.6em;
   font-weight: bold;
   max-width: 50%;
@@ -314,14 +314,16 @@ a:link, a:visited {
 }
 
 
-#scarlet-witch:hover + img, #scarlet-witch:target + img  {
+#scarlet-witch:hover + img {
   display: block;
   /*background-color:rgb(75, 18, 104);*/
   /*background-image:linear-gradient(midnightblue, purple, rebeccapurple);*/
 }
 
-#scarlet-witch:hover, #scarlet-witch:target {
-  background-color:rebeccapurple;
+/*background-image:radial-gradient(circle, darkorchid 15%, dodgerblue, yellowgreen);*/
+#scarlet-witch:hover, #sudoku:hover, #panorama:hover {
+  background-image:radial-gradient(circle,dodgerblue 20%, yellowgreen);
+  box-shadow: 25px 20px 25px #551755;
 }
 
 #projects img, #projects div {
@@ -335,11 +337,10 @@ a:link, a:visited {
 }
 
 
-#panorama:hover {
-  background-color:rebeccapurple;
+#panorama:hover, #sudoku:hover, #scarlet-witch:hover {
+  position:relative;
 }
-
-#panorama:hover + div img {
+#panorama:hover + div img, #sudoku:hover + div img {
   display: block;
   /*background-color:rgb(75, 18, 104);*/
   /*background-image:linear-gradient(midnightblue, purple, rebeccapurple);*/
@@ -347,7 +348,7 @@ a:link, a:visited {
 
 
 @media only screen and (max-device-width: 1100px) {
-  #panorama:hover + div {
+  #panorama:hover + div, #sudoku:hover + div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -359,10 +360,11 @@ a:link, a:visited {
     max-width:80%;
     height:auto;
   }
+
 }
 
 @media only screen and (max-width: 900px) {
-  #panorama:hover + div {
+  #panorama:hover + div, #sudoku:hover + div {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -372,10 +374,11 @@ a:link, a:visited {
     max-width:40%;
     height:auto;
   }
+
 }
 
 @media only screen and (min-width: 900px) and (min-device-width: 1100px){
-  #panorama:hover + div {
+  #panorama:hover + div, #sudoku:hover + div {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -385,4 +388,5 @@ a:link, a:visited {
     max-width:40%;
     height:auto;
   }
+
 }
