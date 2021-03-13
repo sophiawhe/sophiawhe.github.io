@@ -335,11 +335,6 @@ a:link, a:visited {
 }
 
 
-#projects div img {
-  max-width:40%;
-  height:auto;
-}
-
 #panorama:hover {
   background-color:rebeccapurple;
 }
@@ -350,22 +345,44 @@ a:link, a:visited {
   /*background-image:linear-gradient(midnightblue, purple, rebeccapurple);*/
 }
 
-#panorama:hover + div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 
 @media only screen and (max-device-width: 1100px) {
   #panorama:hover + div {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
   }
 
 
-#projects div img {
-  max-width:80%;
-  height:auto;
+  #projects div img {
+    max-width:80%;
+    height:auto;
+  }
 }
+
+@media only screen and (max-width: 900px) {
+  #panorama:hover + div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #projects div img {
+    max-width:40%;
+    height:auto;
+  }
+}
+
+@media only screen and (min-width: 900px) and (min-device-width: 1100px){
+  #panorama:hover + div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #projects div img {
+    max-width:40%;
+    height:auto;
+  }
 }
