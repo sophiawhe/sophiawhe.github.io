@@ -321,7 +321,7 @@ a:link, a:visited {
 }
 
 /*background-image:radial-gradient(circle, darkorchid 15%, dodgerblue, yellowgreen);*/
-#scarlet-witch:hover, #sudoku:hover, #panorama:hover {
+#scarlet-witch:hover, #sudoku:hover, #panorama:hover, #sewer-game:hover {
   background-image:radial-gradient(circle,dodgerblue 20%, yellowgreen);
   box-shadow: 25px 20px 25px #551755;
 }
@@ -337,10 +337,10 @@ a:link, a:visited {
 }
 
 
-#panorama:hover, #sudoku:hover, #scarlet-witch:hover {
+#panorama:hover, #sudoku:hover, #scarlet-witch:hover, #sewer-game:hover {
   position:relative;
 }
-#panorama:hover + div img, #sudoku:hover + div img {
+#panorama:hover + div img, #sudoku:hover + div img, #sewer-game:hover + div img  {
   display: block;
   /*background-color:rgb(75, 18, 104);*/
   /*background-image:linear-gradient(midnightblue, purple, rebeccapurple);*/
@@ -348,7 +348,7 @@ a:link, a:visited {
 
 
 @media only screen and (max-device-width: 1100px) {
-  #panorama:hover + div, #sudoku:hover + div {
+  #panorama:hover + div, #sudoku:hover + div, #sewer-game:hover + div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -364,7 +364,7 @@ a:link, a:visited {
 }
 
 @media only screen and (max-width: 900px) {
-  #panorama:hover + div, #sudoku:hover + div {
+  #panorama:hover + div, #sudoku:hover + div, #sewer-game:hover + div {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -378,7 +378,7 @@ a:link, a:visited {
 }
 
 @media only screen and (min-width: 900px) and (min-device-width: 1100px){
-  #panorama:hover + div, #sudoku:hover + div {
+  #panorama:hover + div, #sudoku:hover + div, #sewer-game:hover + div {
     display: flex;
     flex-direction: row;
     justify-content: center;
