@@ -72,8 +72,10 @@ Other option for iPad/tablet
  background-color: lavender;
 */
 footer, #intro, #facts, #coming-soon, #technologies {
-  background-image: linear-gradient(linen, rgb(169, 169, 252), darkorchid);
+  /*background-image: linear-gradient(linen, rgb(169, 169, 252), darkorchid);*/
   /*background-image: linear-gradient(linen, rgb(169, 169, 252), teal);*/
+  background-image: linear-gradient(linen, rgb(169, 169, 252), darkorchid);
+  /*border: 7px solid black;*/
 }
 
 @media screen and (prefers-color-scheme: dark) {
