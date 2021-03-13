@@ -73,7 +73,7 @@ Other option for iPad/tablet
 */
 footer, #intro, #facts, #coming-soon, #technologies {
   background-image: linear-gradient(linen, rgb(169, 169, 252), darkorchid);
-
+  /*background-image: linear-gradient(linen, rgb(169, 169, 252), teal);*/
 }
 
 @media screen and (prefers-color-scheme: dark) {
@@ -161,7 +161,7 @@ footer p, #projects > article > section, #links section {
 
 #intro, #facts, #coming-soon, #technologies {
   padding: 20px;
-  /*border: 15px solid dodgerblue;*/
+  /*border: 10px solid black;*/
 }
 
 #intro, #facts, #coming-soon, footer, #technologies {
@@ -244,8 +244,10 @@ background-color: #9B570D;
   height: 28em;
   width: 18em;
   background-color:darkorchid;
+  /*background-color: teal;*/
   box-shadow: 20px 15px 20px #551755;
   opacity: 80%;
+  /*border: 10px solid black;*/
 }
 
 #links section {
