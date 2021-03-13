@@ -344,13 +344,13 @@ a:link, a:visited {
   background-color:rebeccapurple;
 }
 
-#panorama:hover + div img {
+#panorama:hover + div img, #panorama:active + div img {
   display: block;
   /*background-color:rgb(75, 18, 104);*/
   /*background-image:linear-gradient(midnightblue, purple, rebeccapurple);*/
 }
 
-#panorama:hover + div {
+#panorama:hover + div, #panorama:active + div {
   display: flex;
   flex-direction: row;
   justify-content: center;
