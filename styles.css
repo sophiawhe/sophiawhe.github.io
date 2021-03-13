@@ -314,13 +314,13 @@ a:link, a:visited {
 }
 
 
-#scarlet-witch:hover + img {
+#scarlet-witch:hover + img, #scarlet-witch:active + img {
   display: block;
   /*background-color:rgb(75, 18, 104);*/
   /*background-image:linear-gradient(midnightblue, purple, rebeccapurple);*/
 }
 
-#scarlet-witch:hover {
+#scarlet-witch:hover, #scarlet-witch:active {
   background-color:rebeccapurple;
 }
 
@@ -340,7 +340,7 @@ a:link, a:visited {
   height:auto;
 }
 
-#panorama:hover {
+#panorama:hover, #panorama:active {
   background-color:rebeccapurple;
 }
 
