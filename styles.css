@@ -74,13 +74,15 @@ Other option for iPad/tablet
 footer, #intro, #facts, #coming-soon, #technologies {
   /*background-image: linear-gradient(linen, rgb(169, 169, 252), darkorchid);*/
   /*background-image: linear-gradient(linen, rgb(169, 169, 252), teal);*/
-  background-image: linear-gradient(linen, rgb(169, 169, 252), darkorchid);
+  /*background-image: linear-gradient(linen, rgb(169, 169, 252), darkorchid);*/
+  background-image: linear-gradient(linen, rgb(169, 169, 252), royalblue);
   /*border: 7px solid black;*/
 }
 
 @media screen and (prefers-color-scheme: dark) {
   footer, #intro, #facts, #coming-soon, #technologies {
-    background-image: linear-gradient(midnightblue, rebeccapurple);
+    /*background-image: linear-gradient(midnightblue, rebeccapurple);*/
+    background-image: linear-gradient(midnightblue, royalblue);
   }
 
   body {
@@ -251,8 +253,10 @@ background-color: #9B570D;
   margin: 15px;
   height: 28em;
   width: 18em;
-  background-color:darkorchid;
+  /*background-color:darkorchid;*/
   /*background-color: teal;*/
+  background-color:royalblue;
+  background-image: radial-gradient( lightskyblue, royalblue);
   box-shadow: 20px 15px 20px #551755;
   opacity: 80%;
   /*border: 10px solid black;*/
@@ -276,12 +280,14 @@ a:link, a:visited {
 
 #links section:hover {
   background-color:darkorchid;
-  background-image: linear-gradient(linen, rgb(171, 127, 192), purple);
+  /*background-image: linear-gradient(linen, rgb(171, 127, 192), purple);*/
+  background-image: linear-gradient(linen, seagreen, royalblue );
   box-shadow: 25px 20px 25px #551755;
 }
 
 #links section:active {
-  background-image:linear-gradient(midnightblue, purple, rebeccapurple);
+  background-image:linear-gradient(midnightblue, royalblue, rebeccapurple);
+  /*background-image:linear-gradient(midnightblue, purple, rebeccapurple);*/
 }
 
 #links article section img {
