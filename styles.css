@@ -256,10 +256,26 @@ background-color: #9B570D;
   /*background-color:darkorchid;*/
   /*background-color: teal;*/
   background-color:royalblue;
-  background-image: radial-gradient( lightskyblue, royalblue);
+  background-image: radial-gradient(lightskyblue, royalblue);
   box-shadow: 20px 15px 20px #551755;
   opacity: 80%;
   /*border: 10px solid black;*/
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  #projects > article > section {
+    justify-content: start;
+    margin: 15px;
+    height: 28em;
+    width: 18em;
+    /*background-color:darkorchid;*/
+    /*background-color: teal;*/
+    background-color:royalblue;
+    background-image: radial-gradient(rgb(83, 184, 247), royalblue, midnightblue);
+    box-shadow: 20px 15px 20px #551755;
+    opacity: 80%;
+    /*border: 10px solid black;*/
+  }
 }
 
 #links section {
