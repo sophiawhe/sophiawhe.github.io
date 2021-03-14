@@ -155,8 +155,14 @@ footer p, #projects > article > section, #links section {
   padding: 20px;
 }
 
-#intro, #facts, #projects, #coming-soon, #links, #technologies {
+#intro, #facts,  #coming-soon, #links, #technologies {
   width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#projects {
+  width: 60%;
   margin: 0 auto;
   margin-bottom: 50px;
 }
