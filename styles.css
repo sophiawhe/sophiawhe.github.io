@@ -262,6 +262,7 @@ background-color: #9B570D;
   /*border: 10px solid black;*/
 }
 
+
 @media screen and (prefers-color-scheme: dark) {
   #projects > article > section {
     justify-content: start;
@@ -271,10 +272,11 @@ background-color: #9B570D;
     /*background-color:darkorchid;*/
     /*background-color: teal;*/
     background-color:royalblue;
-    background-image: radial-gradient(rgb(83, 184, 247), royalblue, midnightblue);
+    background-image: radial-gradient(circle, salmon, royalblue);
     box-shadow: 20px 15px 20px #551755;
     opacity: 80%;
     /*border: 10px solid black;*/
+    color: black;
   }
 }
 
