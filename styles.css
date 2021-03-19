@@ -299,8 +299,9 @@ a:link, a:visited {
 #links section:hover {
   background-color:darkorchid;
   /*background-image: linear-gradient(linen, rgb(171, 127, 192), purple);*/
-  background-image: linear-gradient(linen, seagreen, royalblue );
+  background-image: linear-gradient(linen, salmon, royalblue 80%);
   box-shadow: 25px 20px 25px #551755;
+  color:
 }
 
 #links section:active {
