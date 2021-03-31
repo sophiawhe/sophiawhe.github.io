@@ -14,7 +14,8 @@ body {
   body {
     background-attachment: fixed;
     background-size: 100vw auto;
-    background-image: url("img/background-mobile.jpg");
+    /*background-image: url("img/background-mobile.jpg");*/
+    background-image: radial-gradient(circle, yellowgreen,rgb(169, 169, 252));
 
   }
 
@@ -25,9 +26,15 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
-  body {
+  /*body {
     background-image: url("img/background-mobile.jpg");
     background-size: 100vw auto;
+  }*/
+
+  body {
+    /*background-image: radial-gradient(circle, yellowgreen,rgb(169, 169, 252), mediumvioletred);*/
+    background-image: radial-gradient(circle, yellowgreen,rgb(169, 169, 252));
+    background-attachment: fixed;
   }
 
   html {
@@ -57,7 +64,8 @@ Other option for iPad/tablet
   body {
     background-attachment: fixed;
     background-size: cover;
-    background-image: url("img/background.jpg");
+    /*background-image: url("img/background.jpg");*/
+    background-image: radial-gradient(circle, yellowgreen,rgb(169, 169, 252));
   }
 
   html {
@@ -92,6 +100,8 @@ footer, #intro, #facts, #coming-soon, #technologies {
 
   body {
     color: ghostwhite;
+    background: radial-gradient(#e66465, #9198e5);
+    background-attachment: fixed;
   }
 
 }
