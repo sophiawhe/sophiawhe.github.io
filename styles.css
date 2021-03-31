@@ -71,20 +71,23 @@ Other option for iPad/tablet
  #E0DBD7;
  background-color: lavender;
 */
-footer, #intro, #facts, #coming-soon, #technologies {
   /*background-image: linear-gradient(linen, rgb(169, 169, 252), darkorchid);*/
   /*background-image: linear-gradient(linen, rgb(169, 169, 252), teal);*/
   /*background-image: linear-gradient(linen, rgb(169, 169, 252), darkorchid);*/
-  background-image: linear-gradient(linen, rgb(169, 169, 252), royalblue);
-  /*border: 7px solid black;*/
-  border-radius: 20px;
+footer, #intro, #facts, #coming-soon, #technologies {
+
+  /*background-image: linear-gradient(linen, rgb(169, 169, 252), royalblue);*/
+  background-color: ghostwhite;
+  /*border-radius: 20px;*/
+  border: 7px solid black;
 }
 
 @media screen and (prefers-color-scheme: dark) {
   footer, #intro, #facts, #coming-soon, #technologies {
-    /*background-image: linear-gradient(midnightblue, rebeccapurple);*/
-    background-image: linear-gradient(midnightblue, royalblue);
-    border-radius: 20px;
+    /*background-image: linear-gradient(midnightblue, royalblue);*/
+    /*border-radius: 20px;*/
+    background-color: black;
+    border: 7px solid linen;
   }
 
   body {
@@ -138,7 +141,7 @@ header, #projects > article, #projects > article > section,
 color: #E0DBD7;
 */
 header, #projects h2, #links h2, #links > p, #projects > p, #projects article section p span {
-  color: lavender;
+  color: ghostwhite;
 }
 
 header, #projects > article > section, #links section {
