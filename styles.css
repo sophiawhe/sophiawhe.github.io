@@ -106,6 +106,16 @@ footer, #intro, #facts, #coming-soon, #technologies {
 
 }
 
+@media only screen and (max-device-width: 1100px) and (prefers-color-scheme: dark) {
+  body {
+    background-attachment: fixed;
+    background-size: 100vw 100vw;
+    background-image: radial-gradient(#e66465, #9198e5);
+
+  }
+}
+
+
 /*other option
 font-family: 'Press Start 2P', monospace;*/
 header h1 {
