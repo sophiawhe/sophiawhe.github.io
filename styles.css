@@ -14,7 +14,6 @@ body {
   body {
     background-attachment: fixed;
     background-size: 100vw 100vw;
-    /*background-image: url("img/background-mobile.jpg");*/
     background-image: radial-gradient(circle, yellowgreen,rgb(169, 169, 252));
 
   }
@@ -26,13 +25,8 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
-  /*body {
-    background-image: url("img/background-mobile.jpg");
-    background-size: 100vw auto;
-  }*/
 
   body {
-    /*background-image: radial-gradient(circle, yellowgreen,rgb(169, 169, 252), mediumvioletred);*/
     background-image: radial-gradient(circle, yellowgreen,rgb(169, 169, 252));
     background-attachment: fixed;
   }
@@ -42,23 +36,6 @@ body {
   }
 
 }
-
-/*
-Other option for iPad/tablet
-/*
-@media only screen and (min-device-width: 500px) and (max-device-width: 1100px) {
-  body {
-    background-attachment: fixed;
-    background-size: 100vw auto;
-    background-position: top center;
-    background-image: url("img/background.jpg");
-
-  }
-
-  html {
-    font-size: 20px;
-  }
-}*/
 
 @media only screen and (min-width: 900px) and (min-device-width: 1100px){
   body {
@@ -74,26 +51,15 @@ Other option for iPad/tablet
 
 }
 
-/*
- Prior solid colors:
- #E0DBD7;
- background-color: lavender;
-*/
-  /*background-image: linear-gradient(linen, rgb(169, 169, 252), darkorchid);*/
-  /*background-image: linear-gradient(linen, rgb(169, 169, 252), teal);*/
-  /*background-image: linear-gradient(linen, rgb(169, 169, 252), darkorchid);*/
+
 footer, #intro, #facts, #coming-soon, #technologies {
 
-  /*background-image: linear-gradient(linen, rgb(169, 169, 252), royalblue);*/
   background-color: ghostwhite;
-  /*border-radius: 20px;*/
   border: 7px solid black;
 }
 
 @media screen and (prefers-color-scheme: dark) {
   footer, #intro, #facts, #coming-soon, #technologies {
-    /*background-image: linear-gradient(midnightblue, royalblue);*/
-    /*border-radius: 20px;*/
     background-color:rgb(51, 47, 79);
     border: 7px solid linen;
   }
@@ -116,8 +82,6 @@ footer, #intro, #facts, #coming-soon, #technologies {
 }
 
 
-/*other option
-font-family: 'Press Start 2P', monospace;*/
 header h1 {
   font-family: 'Coda Caption', sans-serif;
   text-transform: uppercase;
@@ -140,9 +104,7 @@ footer {
   background-size: 100%;
 }
 
-/*
-text-decoration: underline;
-*/
+
 h2 {
   font-size: 2.5em;
 }
@@ -157,9 +119,7 @@ header, #projects > article, #projects > article > section,
   align-items: center;
 }
 
-/*
-color: #E0DBD7;
-*/
+
 header, #projects h2, #links h2, #links > p, #projects > p, #projects article section p span {
   color: ghostwhite;
 }
@@ -196,7 +156,6 @@ footer p, #projects > article > section, #links section {
 
 #intro, #facts, #coming-soon, #technologies {
   padding: 20px;
-  /*border: 10px solid black;*/
 }
 
 #intro, #facts, #coming-soon, footer, #technologies {
@@ -270,21 +229,16 @@ footer p, #projects > article > section, #links section {
   justify-content: space-evenly;
 }
 
-/*
-background-color: #9B570D;
-*/
+
 #projects > article > section {
   justify-content: start;
   margin: 15px;
   height: 28em;
   width: 18em;
-  /*background-color:darkorchid;*/
-  /*background-color: teal;*/
   background-color:royalblue;
   background-image: radial-gradient(lightskyblue, royalblue);
   box-shadow: 20px 15px 20px #551755;
   opacity: 80%;
-  /*border: 10px solid black;*/
 }
 
 
@@ -294,13 +248,10 @@ background-color: #9B570D;
     margin: 15px;
     height: 28em;
     width: 18em;
-    /*background-color:darkorchid;*/
-    /*background-color: teal;*/
     background-color:royalblue;
     background-image: radial-gradient(circle, orchid, royalblue);
     box-shadow: 20px 15px 20px #551755;
     opacity: 80%;
-    /*border: 10px solid black;*/
     color:black;
   }
 }
@@ -323,14 +274,12 @@ a:link, a:visited {
 
 #links section:hover {
   background-color:darkorchid;
-  /*background-image: linear-gradient(linen, rgb(171, 127, 192), purple);*/
   background-image: linear-gradient(linen, salmon, royalblue 80%);
   box-shadow: 25px 20px 25px #551755;
 }
 
 #links section:active {
   background-image:linear-gradient(midnightblue, royalblue, rebeccapurple);
-  /*background-image:linear-gradient(midnightblue, purple, rebeccapurple);*/
 }
 
 #links article section img {
@@ -375,11 +324,8 @@ a:link, a:visited {
 
 #scarlet-witch:hover + img {
   display: block;
-  /*background-color:rgb(75, 18, 104);*/
-  /*background-image:linear-gradient(midnightblue, purple, rebeccapurple);*/
 }
 
-/*background-image:radial-gradient(circle, darkorchid 15%, dodgerblue, yellowgreen);*/
 #scarlet-witch:hover, #sudoku:hover, #panorama:hover, #sewer-game:hover {
   background-image:radial-gradient(circle,dodgerblue 20%, yellowgreen);
   box-shadow: 25px 20px 25px #551755;
@@ -401,8 +347,6 @@ a:link, a:visited {
 }
 #panorama:hover + div img, #sudoku:hover + div img, #sewer-game:hover + div img  {
   display: block;
-  /*background-color:rgb(75, 18, 104);*/
-  /*background-image:linear-gradient(midnightblue, purple, rebeccapurple);*/
 }
 
 
