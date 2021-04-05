@@ -60,7 +60,7 @@ footer, #intro, #facts, #coming-soon, #technologies {
 
 @media screen and (prefers-color-scheme: dark) {
   footer, #intro, #facts, #coming-soon, #technologies {
-    background-color:rgb(51, 47, 79);
+    background-image:linear-gradient(rgb(51, 47, 79), darkslateblue);
     border: 7px solid linen;
   }
 
