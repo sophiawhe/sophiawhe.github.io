@@ -4,7 +4,7 @@
 */
 
 body {
-  background-color:mediumslateblue;
+  background-color:rgb(169, 169, 252);
   font-family: 'Share Tech Mono', monospace;
   background-position: top center;
   color: black;
@@ -274,7 +274,7 @@ a:link, a:visited {
 
 #links section:hover {
   background-color:darkorchid;
-  background-image: linear-gradient(linen, salmon, royalblue 80%);
+  background-image: linear-gradient(linen, mediumpurple, royalblue);
   box-shadow: 25px 20px 25px #551755;
 }
 
