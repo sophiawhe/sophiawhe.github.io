@@ -62,6 +62,7 @@ footer, #intro, #facts, #coming-soon, #technologies {
   footer, #intro, #facts, #coming-soon, #technologies {
     background-image:linear-gradient(rgb(51, 47, 79), darkslateblue);
     border: 7px solid linen;
+    opacity: 80%;
   }
 
   body {
